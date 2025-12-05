@@ -1,0 +1,8 @@
+.botBubble {
+    background: white;
+    border: 1px solid var(--text-main);
+    border-radius: 2rem 2rem 2rem 0;
+    padding: .5rem 1rem;
+    align-self: flex-start;
+    max-width: 80%;
+}

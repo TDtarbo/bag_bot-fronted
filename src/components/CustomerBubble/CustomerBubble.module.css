@@ -1,0 +1,12 @@
+.customerBubble {
+    background: var(--text-main);
+    border: 1px solid var(--text-main);
+    border-radius: 2rem 2rem 0 2rem;
+    color: wheat;
+    padding: .5rem 1rem;
+    align-self: flex-end;
+    max-width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}

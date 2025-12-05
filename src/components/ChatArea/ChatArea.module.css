@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+}
+
+.chatArea {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30vw;
+    height: 65vh;
+    max-height: 70vh;
+    scrollbar-gutter: stable;
+    padding-right: 10px;
+}
+
+.chatArea::-webkit-scrollbar {
+  width: 5px;
+}
+
+.chatArea::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chatArea::-webkit-scrollbar-thumb {
+  background: var(--text-light);
+  border-radius: 4px;
+}
