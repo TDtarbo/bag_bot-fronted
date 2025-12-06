@@ -10,4 +10,11 @@
   font-style: normal;
 }
 
+ol, ul {
+  list-style: decimal;
+  padding-left: 2rem;
+  font: bold
+}
+
+
 @import "tailwindcss";
