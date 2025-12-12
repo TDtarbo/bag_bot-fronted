@@ -1,16 +1,90 @@
-# React + Vite
+# BagBot - AI Shopping Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BagBot is an intelligent shopping assistant chatbot frontend built with React and Vite. It provides a conversational interface for customers to get help with orders, shipping, returns, and product recommendations.
 
-Currently, two official plugins are available:
+![Preview](https://github.com/user-attachments/assets/7fea488a-1316-4352-ad6e-e0c9654b74e2)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **AI-Powered Chat Interface**: Interactive chatbot powered by AI SDK for React
+- **Real-time Conversations**: Smooth, responsive messaging experience
+- **Quick Suggestions**: Pre-defined suggestions for common queries (order tracking, returns, refunds, etc.)
+- **Animated UI**: Beautiful animations with Framer Motion
+- **Modern Styling**: Tailwind CSS for responsive and clean design
+- **Markdown Support**: Render formatted text responses with React Markdown
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19** - UI library
+- **Vite** - Build tool and dev server with HMR
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
+- **AI SDK for React** - AI integration
+- **FontAwesome** - Icon library
+- **ESLint** - Code linting
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Hero.jsx           # Welcome screen with suggestions
+│   ├── ChatArea.jsx       # Chat message display area
+│   ├── BotBubble.jsx      # AI bot message bubble
+│   ├── CustomerBubble.jsx # User message bubble
+│   └── InputField.jsx     # Message input field
+├── pages/
+│   └── ChatPage.jsx       # Main chat page
+├── App.jsx                # Root component
+└── main.jsx               # Entry point
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Development
+
+Start the development server with HMR:
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`
+
+### Build
+
+Build for production:
+```bash
+npm run build
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+
+## Components
+
+- **Hero**: Welcome screen with quick suggestion buttons
+- **ChatArea**: Displays the conversation history
+- **BotBubble**: Renders AI bot responses
+- **CustomerBubble**: Renders user messages
+- **InputField**: User message input with send functionality
+- **ChatPage**: Main container managing chat state and logic
+
+## License
+
+This project is part of EEX6340 - Artificial Intelligence Techniques & Agent Technology coursework.
