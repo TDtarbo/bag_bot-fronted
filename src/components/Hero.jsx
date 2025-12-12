@@ -8,27 +8,7 @@ const suggestions = [
   "What is your return policy?",
   "When will I get my refund?",
   "Can I exchange an item?",
-  "Are there any restocking fees?",
   "Suggest products for me",
-  /*   "What are your bestsellers?",
-  "Do you have discounts on electronics?",
-  "Recommend gifts under $50",
-  "Show me trending items",
-  "How do I reset my password?",
-  "Update my payment method",
-  "Check my account balance",
-  "Add a new shipping address",
-  "What are your customer support hours?",
-  "How do I contact a human agent?",
-  "Where can I find your store locations?",
-  "Do you offer gift cards?",
-  "Do you have a loyalty program?",
-  "Can I cancel my order?",
-  "What payment methods do you accept?",
-  "How do I apply a discount code?",
-  "Can I pre-order items?",
-  "Do you ship internationally?",
-  "How do I subscribe to your newsletter?" */
 ];
 
 const Hero = ({ setMessages, setChatBegin }) => {
